@@ -26,6 +26,3 @@ This exercise implements **server-side** filtering: switching tabs re-fetches fr
 - **Client-side**: fetch everything once and filter the array in React. Switching tabs is instant with no network cost, but the client has to hold (and initially download) the full todo list, which doesn't scale as well.
 
 For this exercise, the server-side approach was chosen to practice passing query params end to end.
-
----
-*This assignment was completed with the assistance of an AI coding tool (Claude), used to implement the changes described above based on the assignment's instructions.*
