@@ -288,3 +288,34 @@ button:focus-visible {
   font-size: 0.78rem;
   color: var(--ink-soft);
 }
+
+/* Filter tabs */
+.filter-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--rule);
+}
+
+.filter-tab {
+  flex: 1;
+  background: none;
+  border: 1px solid var(--rule);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  padding: 6px 0;
+  cursor: pointer;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+
+.filter-tab:hover {
+  color: var(--ink);
+}
+
+.filter-tab.active {
+  color: var(--stamp-red);
+  border-color: var(--stamp-red);
+  font-weight: 600;
+}
