@@ -1,7 +1,7 @@
 // App.jsx
 import { useState, useEffect } from 'react';
-import TodoForm from './TodoForm';
-import TodoList from './TodoList';
+import TodoForm from './todoForm';
+import TodoList from './todoList';
 import { fetchTodos, createTodo, updateTodo, deleteTodo } from './api/todos';
 import './todo.css';
 

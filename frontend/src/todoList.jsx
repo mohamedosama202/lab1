@@ -1,5 +1,5 @@
 // TodoList.jsx
-import TodoItem from './TodoItem';
+import TodoItem from './todoItem';
 
 export default function TodoList({ todos, loading, onToggle, onRename, onRemove }) {
   if (loading) return <p className="todo-loading">Loading tasks…</p>;
